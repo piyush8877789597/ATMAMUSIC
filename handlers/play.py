@@ -102,7 +102,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
 
 
 @Client.on_message(
-    commandpro(["/play", "/ytp", "Play"])
+    commandpro(["/play", "/ytp", "!Play"])
     & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -176,7 +176,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/ab23ee0880dd24f21affe.jpg"
+        thumb_name = "https://telegra.ph/file/ab23ee0880dd24f21affe.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -233,7 +233,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/ab23ee0880dd24f21affe.jpg"
+            thumb_name = "https://telegra.ph/file/ab23ee0880dd24f21affe.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙰𝚃𝙼𝙰 𝙼𝚄𝚂𝙸𝙲🤞\n𝙰𝙳𝙳𝙸𝙽𝙶💿 𝙰 𝚂𝙾𝙽𝙷❗️\n🔊 Ʌʈ 💞  » `{}` 🌷 ...**".format(position),
+            caption="**💥𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙰𝚃𝙼𝙰 𝙼𝚄𝚂𝙸𝙲🤞\n𝙰𝙳𝙳𝙸𝙽𝙶💿 𝙰 𝚂𝙾𝙽G❗️\n🔊 Ʌʈ 💞  » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -347,7 +347,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg", 
+                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
                              caption="**💥𝙼𝙰𝙸 𝚃𝙾🤞𝙲𝙷𝚄𝙿 𝙷𝙾 𝙶𝚈𝙰 𝙺𝚁𝙾\n💞𝙱𝙰𝙺𝙲𝙷𝙾𝙳𝙸🥀 ▶️ 𝙿𝙰𝚄𝚂𝙴𝙳 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙼𝚄𝚂𝙸𝙲🌷 ...**"
     )
 
@@ -358,7 +358,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg", 
+                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
                              caption="**💥𝙻𝙾 𝙰𝙱𝙱 𝙳𝚄𝙱𝙰𝚁𝙰👅𝚂𝚄𝚁𝚄 𝙷𝙾 𝙶𝚈𝙰 𝙼🤞Mʋsɩƈ\nNøω 🥀 ⏸𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝚃𝙾 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙼𝚄𝚂𝙸𝙲🌷 ...**"
     )
 
@@ -392,7 +392,7 @@ async def skip(_, message: Message):
                 )
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg", 
+                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
                              caption=f'**💥𝙻𝙴 𝙱𝙰𝙳𝙰𝙻 𝙳𝙸𝚈𝙰 𝚂𝙾𝙽𝙶🔈𝙺𝚁𝙾 🤞\nNøω 🥀 𝙼𝙹𝙴 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
@@ -408,7 +408,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg", 
+                             photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
                              caption="**💥𝚂𝚃𝙾𝙿 𝙺𝚈𝚄 𝙺𝙸𝚈𝙰 𝙱𝙷𝙰𝙸🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
@@ -426,6 +426,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg",
+                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png",
                               caption="**💥 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙼𝚄𝚂𝙸𝙲🔈🤞\nNøω 🥀🔥𝚁𝙴𝙻𝙾𝙰𝙳𝙴𝙳 𝙳𝙾𝙽𝙴⚜️ ...**"
     )
