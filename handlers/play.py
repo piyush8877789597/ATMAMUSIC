@@ -112,7 +112,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**🔄 𝗣𝗥𝗢𝗦𝗘𝗦𝗦𝗜𝗡𝗚 𝗪𝗔𝗜𝗧...**")
+    lel = await message.reply("**🔄 𝗣𝗥𝗢𝗦𝗘𝗦𝗦𝗜𝗡G...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -120,7 +120,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗔𝗧𝗠𝗔"
+        user.first_name = "BHATAKTI_MUSIC"
     usar = user
     wew = usar.id
     try:
