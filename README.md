@@ -12,7 +12,7 @@
 ### ᴄᴏᴍᴍᴀɴᴅs 🛠
 #### ғᴏʀ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘ
 - `/play` - reply to youtube url or song file to play song
-- `/play <song name>` - play song you requested
+- `/play <song name>`https://heroku.com/deploy?template=https://github.com/King98179253/HackerMusic.git - play song you requested
 - `/song <song name>` - download songs you want quickly
 - `/search <query>` - search videos on youtube with details
 
@@ -30,4 +30,4 @@
 
 ### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/rakeshyt/HackerMusic)
+[![Depl https://heroku.com/deploy?template=https://github.com/King98179253/HackerMusic.git oy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/King98179253/HackerMusic.git)
