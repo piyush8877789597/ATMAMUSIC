@@ -1,4 +1,4 @@
-<h2 align="centre">🇮🇳𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙼𝚄𝚂𝙸𝙲🇮🇳</h2>
+<h2 align="centre">🇮🇳BHATAKTI_ATMA MUSIC 🇮🇳</h2>
 
 ### 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙰𝚃𝙼𝙰 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
@@ -6,7 +6,7 @@
 
 
 
-### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
+### ꜱᴜᴘᴘᴏʀᴛ ⚜️ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
 <a href="https://t.me/ABOUT_BHATAKTI"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
 ### ᴄᴏᴍᴍᴀɴᴅs 🛠
