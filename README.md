@@ -1,13 +1,13 @@
-<h2 align="centre">🇮🇳𝗗𝗲𝘃𝗶𝗹 𝗛𝗮𝗰𝗸𝗲𝗿 𝗠𝘂𝘀𝗶𝗰🇮🇳</h2>
+<h2 align="centre">🇮🇳𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙼𝚄𝚂𝙸𝙲🇮🇳</h2>
 
-### 𝗗𝗲𝘃𝗶𝗹 𝗛𝗮𝗰𝗸𝗲𝗿 𝗠𝘂𝘀𝗶𝗰 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙰𝚃𝙼𝙰 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/JaiHindChatting"><img src="https://telegra.ph/file/98028a641d5e7935b6786.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/ABOUT_BHATAKTI"><img src="https://telegra.ph/file/ab23ee0880dd24f21affe.jpg" width="300"></a></p>
 
 
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
-<a href="https://t.me/JaiHindChatting"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
+<a href="https://t.me/ABOUT_BHATAKTI"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram">
 
 ### ᴄᴏᴍᴍᴀɴᴅs 🛠
 #### ғᴏʀ ᴀʟʟ ᴍᴇᴍʙᴇʀs ɪɴ ɢʀᴏᴜᴘ
@@ -25,7 +25,7 @@
 
 # ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ sᴛʀɪɴɢ sᴇssɪᴏɴ
 
-[Repl Link](https://t.me/JaiHindChatting) to get pyrogram string session
+[Repl Link](https://t.me/ABOUT_BHATAKTI) to get pyrogram string session
 
 
 ### Deploy To Heroku
