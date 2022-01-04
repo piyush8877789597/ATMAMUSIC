@@ -112,7 +112,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**🔄 𝙿𝙻𝙴𝙰𝚂𝙴_𝚆𝙰𝙸𝚃...**")
+    lel = await message.reply("**🔄 𝗣𝗥𝗢𝗦𝗘𝗦𝗦𝗜𝗡𝗚 𝗪𝗔𝗜𝗧...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -120,7 +120,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙰𝚃𝙼𝙰"
+        user.first_name = "𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗔𝗧𝗠𝗔"
     usar = user
     wew = usar.id
     try:
@@ -135,7 +135,7 @@ async def play(_, message: Message):
                         invitelink = invitelink.replace("https://t.me/+","https://t.me/lovely_friends_2/")
                 except:
                     await lel.edit(
-                        "<b>🤖 𝙰𝙰𝚁𝙴 𝙱𝙷𝙰𝙸 𝙰𝙳𝙼𝙸𝙽 𝚃𝙾 𝙱𝙽𝙰 𝙳𝙴 😬\n😘 𝙼𝚄𝙹𝙷𝙴🌷...</b>",
+                        "<b>🤖𝗔𝗕𝗕𝗘 𝗔𝗗𝗠𝗜𝗡 𝗧𝗢 𝗕𝗡𝗔 𝗣𝗛𝗔𝗟𝗬😬\n😘𝗠𝗨𝗝𝗛𝗘🌷...</b>",
                     )
                     return
 
@@ -143,21 +143,21 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id,
-                        "**💐𝙻𝙾 𝙼 𝙰𝙰 𝙶𝚈𝙰♻️𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃🤞𝙽𝙾𝚆🌹𝚁𝙴𝙰𝙳𝚈👻\n😘𝚃𝙾✌️𝙿𝙻𝙰𝚈💞𝙼𝚄𝚂𝙸𝙲🌷...**",
+                        "**💐𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖 ♻️ 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 🤞 𝗡𝗢𝗪 🌹 𝗥𝗘𝗔𝗗𝗬 👻\n😘 𝗧𝗢 ✌️ 𝗣𝗟𝗔𝗬 💞 𝗠𝗨𝗦𝗜𝗖 🌷...**",
                     )
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>💥 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 😔 𝙵𝙰𝙸𝙻𝙳⚠️𝚃𝙾📵\n🥺𝙹𝙾𝙸𝙽✌️𝚃𝙷𝙸𝚂💞𝙲𝙷𝙰𝚃🌷..."
+                        f"<b>💥𝗦𝗥𝗬 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 😔 𝗙𝗔𝗜𝗟𝗗 ⚠️ 𝗧𝗢 📵\n🥺 𝗝𝗢𝗜𝗡 ✌️ 𝗝𝗢𝗜𝗡 💞 𝗖𝗛𝗔𝗧 🌷..."
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"**💥 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 😔 𝙵𝙰𝙸𝙻𝙳⚠️𝚃𝙾📵\n🥺𝙹𝙾𝙸𝙽✌️𝚃𝙷𝙸𝚂💞𝙲𝙷𝙰𝚃 🌷...**"
+            f"**💥 𝗦𝗥𝗬 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 😔 𝗙𝗔𝗜𝗟𝗗 ⚠️ 𝗧𝗢 📵\n🥺 𝗝𝗢𝗜𝗡 ✌️ 𝗝𝗢𝗜𝗡 💞 𝗖𝗛𝗔𝗧 🌷...**"
         )
         return
 
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 𝙿𝙻𝙰𝚈🔊𝙼𝚄𝚂𝙸𝙲💿𝚁𝚄𝙺𝙹𝙰⚡️\n🤟𝚃𝙷𝙾𝙳𝙸😒𝙳𝙴𝚁⚡️ {DURATION_LIMIT} 💞 𝙵𝙴𝚆 Ɱɩɳʋʈɘ ...**"
+                f"**💥 𝗣𝗟𝗔𝗬 🔊 𝗠𝗨𝗦𝗜𝗖 ✨ 𝗪𝗔𝗜𝗧 ⚡️\n🤟 𝗧𝗛𝗢𝗗𝗜 😒 𝗗𝗘𝗥 ⚡️ {DURATION_LIMIT} 💞...**"
             )
 
         file_name = get_file_name(audio)
@@ -185,7 +185,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥𝙻𝙴𝚃,𝚂 𝙹𝙾𝙸𝙽 𝙵𝙾𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💞",
+                            text="💥𝗟𝗘𝗧,𝗦 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣💞",
                             url=f"https://t.me/lovely_friends_2")
 
                 ]
@@ -224,7 +224,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥𝙻𝙴𝚃,𝚂 𝙹𝙾𝙸𝙽 𝙵𝙾𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃💞",
+                            text="𝗟𝗘𝗧,𝗦 𝗝𝗢𝗜𝗡 𝗠𝗬 ⚜️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ♻️ 𝗚𝗥𝗢𝗨𝗣",
                             url=f"https://t.me/lovely_friends_2")
 
                 ]
@@ -240,7 +240,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="💥𝗝𝗢𝗜𝗡 𝗛𝗘𝗥𝗘 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 💞",
                             url=f"https://t.me/lovely_friends_2")
 
                 ]
@@ -249,7 +249,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 Ƥɭɑy 🔊 Ɱʋsɩƈ 💿 Lɘss ⚡️\n🤟 Ƭɦɑɳ⚡️ {DURATION_LIMIT} 💞 Ɱɩɳʋʈɘ ...**"
+                f"**💥 𝗣𝗟𝗔𝗬 🔊 𝗠𝗨𝗦𝗜𝗖 💿 𝗟𝗘𝗦𝗦  ⚡️\n🤟 𝗧𝗛𝗘𝗡 ⚡️ {DURATION_LIMIT} 💞 𝗙𝗘𝗪 𝗠𝗜𝗡𝗨𝗧𝗘𝗦 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -258,12 +258,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 𝙺𝙾𝙸 🥱𝙽𝙰𝙰𝙼 𝚃𝙾 😬𝙱𝚃𝙰𝙾 𝙼𝚄𝚂𝙸𝙲⚜️ 𝙺𝙰😍\n💞𝚈𝙰 𝙿𝙰𝙶𝙰𝙻 𝙷𝙾🌷...**"
+                "**🤖 𝗕𝗛𝗔𝗜 ⚜️ 𝗬𝗔 𝗨𝗦𝗞𝗜 𝗕𝗛𝗘𝗡 ⚠️ 🥱 𝗡𝗔𝗔𝗠 😬 𝗕𝗧𝗔𝗢 𝗠𝗨𝗦𝗜𝗖 ⚜️ 𝗞𝗔 😍\n💞 𝗬𝗔 𝗣𝗔𝗚𝗔𝗟 𝗛𝗢 🌷...**"
             )
-        await lel.edit("**🔎 Sɘɑɤƈɦɩɳʛ ...**")
+        await lel.edit("**🔎 𝗦𝗘𝗔𝗥𝗖𝗛𝗜𝗡𝗚 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**🔄 𝙿𝙻𝙴𝙰𝚂𝙴_𝚆𝙰𝙸𝚃 ...**")
+        await lel.edit("**🔄 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -286,7 +286,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊𝙼𝚄𝙹𝙷𝙴😃𝚈𝙴♻️𝙼𝚄𝚂𝙸𝙲 🤧𝙽𝙾𝙸 💔𝙼𝙸𝙻𝙰❗️\n💞𝙳𝚄𝙱𝙰𝚁𝙰 𝚃𝚁𝚈✨ 𝙺𝚁 🌷...**"
+                "**🔊 𝗠𝗨𝗝𝗛𝗘 😃 𝗬𝗘 ♻️ 𝗠𝗨𝗦𝗜𝗖 🤧 𝗡𝗢𝗜 💔 𝗠𝗜𝗟𝗔 ❗️\n💞 𝗔𝗚𝗔𝗜𝗡 𝗧𝗥𝗬 ✨ 𝗞𝗥 🌷...**"
             )
             print(str(e))
             return
@@ -295,7 +295,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
+                            text="💥 𝗝𝗢𝗜𝗡 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 💞",
                             url=f"https://t.me/lovely_friends_2")
 
                 ]
@@ -304,7 +304,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥𝚁𝚄𝙺 𝙹𝙰 🔊 Ɱʋsɩƈ 💿𝙱𝙰𝙹𝙽𝚈 𝚅𝙰𝙻𝙰⚡️\n🤟 𝙷⚡️ {DURATION_LIMIT} 💞 𝙵𝙴𝚆 Ɱɩɳʋʈɘ ...**"
+                f"**💥 𝗪𝗔𝗜𝗧 𝗞𝗥 🔊 𝗠𝗨𝗦𝗜𝗖  💿 𝗕𝗔𝗝𝗡𝗬  𝗩𝗔𝗟𝗔 ⚡️\n🤟 𝗛 ⚡️ {DURATION_LIMIT} 💞 𝗪𝗔𝗜𝗧 𝗙𝗘𝗪 𝗠𝗜𝗡𝗨𝗧𝗘,𝗦 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙰𝚃𝙼𝙰 𝙼𝚄𝚂𝙸𝙲🤞\n𝙰𝙳𝙳𝙸𝙽𝙶💿 𝙰 𝚂𝙾𝙽G❗️\n🔊 Ʌʈ 💞  » `{}` 🌷 ...**".format(position),
+            caption="**💥 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗔𝗧𝗠𝗔 🤞\n💿 𝗔𝗗𝗗𝗜𝗡𝗚 𝗔 𝗦𝗢𝗡𝗚 ❗️\n🔊 𝗔𝗧  💞  » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙰𝚃𝙼𝙰🤞𝙼𝚄𝚂𝙸𝙲💞\n🎸 𝙽𝙾𝚆 🔊 𝙿𝙻𝙰𝚈𝙸𝙽𝙶 😍𝙾𝙿🥀 ...**".format(),
+            caption="**💥 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗔𝗧𝗠𝗔 🤞 𝗠𝗨𝗦𝗜𝗖 💞\n🎸 𝗡𝗢𝗪  🔊 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 😍 𝗢𝗣 🥀 𝗦𝗢𝗨𝗡𝗗  ...**".format(),
         )
 
     os.remove("final.png")
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥𝙼𝙰𝙸 𝚃𝙾🤞𝙲𝙷𝚄𝙿 𝙷𝙾 𝙶𝚈𝙰 𝙺𝚁𝙾\n💞𝙱𝙰𝙺𝙲𝙷𝙾𝙳𝙸🥀 ▶️ 𝙿𝙰𝚄𝚂𝙴𝙳 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙼𝚄𝚂𝙸𝙲🌷 ...**"
+                             caption="**💥 𝗠𝗔𝗜 𝗧𝗢 𝗖𝗛𝗨𝗣 🤞 𝗛𝗢 𝗚𝗬𝗔 𝗔𝗕𝗕 𝗞𝗥𝗢 🥶\n💞 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜 🥀 ▶️ 𝗣𝗔𝗨𝗦𝗘𝗗 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖🌷 ...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥𝙻𝙾 𝙰𝙱𝙱 𝙳𝚄𝙱𝙰𝚁𝙰👅𝚂𝚄𝚁𝚄 𝙷𝙾 𝙶𝚈𝙰 𝙼🤞Mʋsɩƈ\nNøω 🥀 ⏸𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝚃𝙾 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸 𝙼𝚄𝚂𝙸𝙲🌷 ...**"
+                             caption="**💥 𝗛𝗢 𝗚𝗬𝗜 𝗞𝗛𝗔𝗧𝗔𝗠 ♻️ 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜 𝗔𝗣𝗞𝗜 👅 𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗔𝗥𝗧 🤞 𝗔𝗚𝗔𝗜𝗡\n𝗡𝗢𝗪🥀 ⏸ 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗧𝗢 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗠𝗨𝗦𝗜𝗖🌷 ...**"
     )
 
 
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**💥 𝚈𝚁𝚁 𝙼♻️ 𝚇𝙷𝚄𝚃𝙸𝚈𝙰😑 𝙷𝚄 𝙺𝚈𝙰 💞\n𝙺𝚄𝚇𝙷 🔇𝙲𝙷𝙻𝙰𝚈𝙰 𝙷𝚄𝙰 𝙷𝙸 𝙽𝙾𝙸 𝙷🚫  🌷 ...**")
+        await message.reply_text("**💥 𝗬𝗥𝗥 𝗠 ♻️ 𝗫𝗛𝗨𝗧𝗜𝗬𝗔 😑 𝗛𝗨 𝗞𝗬𝗔 💞\n𝗞𝗨𝗖𝗛 🔇 𝗖𝗛𝗔𝗟𝗔𝗬𝗔 𝗛𝗨𝗔 𝗕𝗛𝗜 𝗛 𝗧𝗨𝗠𝗡𝗬 🌷 ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption=f'**💥𝙻𝙴 𝙱𝙰𝙳𝙰𝙻 𝙳𝙸𝚈𝙰 𝚂𝙾𝙽𝙶🔈𝙺𝚁𝙾 🤞\nNøω 🥀 𝙼𝙹𝙴 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'**💥 𝗟𝗢 𝗕𝗔𝗗𝗔𝗟 𝗚𝗬𝗔 𝗦𝗢𝗡𝗚 🔈𝗞𝗥𝗢  🤞\nNøω 🥀 𝗠𝗝𝗘  ⏩ 𝗦𝗞𝗜𝗣𝗣𝗘𝗗 🌷 ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥𝚂𝚃𝙾𝙿 𝙺𝚈𝚄 𝙺𝙸𝚈𝙰 𝙱𝙷𝙰𝙸🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="**💥 𝗞𝗛𝗨𝗝𝗟𝗜 😑 𝗛 𝗞𝗬𝗔 𝗕𝗘 🔈 𝗦𝗧𝗢𝗣 \n🤞 𝗞𝗬𝗨 🥀 ❌ 𝗞𝗜𝗬𝗔 😵𝗦𝗧𝗢𝗣𝗘𝗗 🌷 ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png",
-                              caption="**💥 𝙱𝙷𝙰𝚃𝙰𝙺𝚃𝙸_𝙼𝚄𝚂𝙸𝙲🔈🤞\nNøω 🥀🔥𝚁𝙴𝙻𝙾𝙰𝙳𝙴𝙳 𝙳𝙾𝙽𝙴⚜️ ...**"
+                              caption="**💥 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖🔈🤞\n🥀 𝗡𝗢𝗪 🔥 𝗣𝗘𝗟𝗢𝗔𝗗𝗘𝗗 𝗗𝗢𝗡𝗘 ⚜️ ...**"
     )
