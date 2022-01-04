@@ -34,14 +34,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+        photo=f"https://telegra.ph/file/ab23ee0880dd24f21affe.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
-𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
+💥 𝗛𝗘𝗟𝗟𝗢, 𝗜 𝗔𝗠 𝗦𝗨𝗣𝗘𝗥 𝗙𝗔𝗦𝗧 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
+𝗕𝗢𝗧 𝗙𝗢𝗥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗚𝗥𝗢𝗨𝗣...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝗥𝗬𝗠 𝗧𝗘𝗔𝗠](https://t.me/RYMOFFICIAL)
-┣★ 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 : [𝗝𝗮𝗶🇮🇳𝗛𝗶𝗻𝗱](https://t.me/JaiHindChatting)
-┣★ 𝙎𝙤𝙪𝙧𝙘𝙚 : [𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲](https://t.me/JaiHindChatting)
+┣★ 𝗖𝗥𝗘𝗔𝗧𝗘𝗥 : [⚠️𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗔𝗧𝗠𝗔⚠️](https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK)
+┣★ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : [⚜️𝗔𝗡𝗬_𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡⚜️](https://t.me/lovely_friends_2)
+┣★ 𝗦𝗢𝗨𝗥𝗖𝗘 : [𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲🔐](https://t.me/ABOUT_BHATAKTI/175)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
@@ -49,7 +49,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "😆 ❰ 𝘼𝙙𝙙 𝙈𝙚 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥 ❱ 😆", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "😆 ❰ 𝗟𝗘 𝗖𝗛𝗟𝗢 𝗨𝗧𝗛𝗔 𝗞𝗘 ❱ 😆", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
@@ -60,13 +60,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "legend"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+        photo=f"https://telegra.ph/file/ab23ee0880dd24f21affe.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝙅𝙤𝙞𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 💞", url=f"https://t.me/jaihindchatting")
+                        "💥 𝙅𝙤𝙞𝙣 𝙃𝙚𝙧𝙚 𝘼𝙣𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 💞", url=f"https://t.me/lovely_friends_2")
                 ]
             ]
         ),
@@ -76,13 +76,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/8fddb775d567de8a63940.jpg",
+        photo=f"https://telegra.ph/file/ab23ee0880dd24f21affe.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "😆 𝘾𝙡𝙞𝙘𝙠 𝙃𝙚𝙧𝙚 𝙏𝙤 𝙂𝙚𝙩 𝙍𝙚𝙥𝙤 😆", url=f"https://t.me/jaihindchatting")
+                        "😆𝗥𝗘𝗣𝗢 𝗟𝗔𝗡𝗜 𝗛 😆", url=f"https://t.me/lovely_friends_2")
                 ]
             ]
         ),
